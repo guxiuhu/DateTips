@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96084D8F1D5D7A900000E713"
+               BlueprintIdentifier = "96BECD0F1D64637100010CFC"
                BuildableName = "DateTips.app"
                BlueprintName = "DateTips"
                ReferencedContainer = "container:DateTips.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96084DA31D5D7A900000E713"
-               BuildableName = "DateTipsTests.xctest"
-               BlueprintName = "DateTipsTests"
-               ReferencedContainer = "container:DateTips.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "96084DAE1D5D7A900000E713"
-               BuildableName = "DateTipsUITests.xctest"
-               BlueprintName = "DateTipsUITests"
-               ReferencedContainer = "container:DateTips.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96084D8F1D5D7A900000E713"
+            BlueprintIdentifier = "96BECD0F1D64637100010CFC"
             BuildableName = "DateTips.app"
             BlueprintName = "DateTips"
             ReferencedContainer = "container:DateTips.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96084D8F1D5D7A900000E713"
+            BlueprintIdentifier = "96BECD0F1D64637100010CFC"
             BuildableName = "DateTips.app"
             BlueprintName = "DateTips"
             ReferencedContainer = "container:DateTips.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "96084D8F1D5D7A900000E713"
+            BlueprintIdentifier = "96BECD0F1D64637100010CFC"
             BuildableName = "DateTips.app"
             BlueprintName = "DateTips"
             ReferencedContainer = "container:DateTips.xcodeproj">
