@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E2E2AC28FCDA40CF71EC418 /* Pods_DateTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BECB5B077B5ACAF0495E5933 /* Pods_DateTips.framework */; };
+		960031211D646051002BF862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9600311C1D646051002BF862 /* Assets.xcassets */; };
+		960031261D64605B002BF862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960031241D64605B002BF862 /* LaunchScreen.storyboard */; };
+		960031281D64608F002BF862 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 960031271D64608F002BF862 /* Info.plist */; };
 		96084D941D5D7A900000E713 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96084D931D5D7A900000E713 /* AppDelegate.swift */; };
-		96084D961D5D7A900000E713 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96084D951D5D7A900000E713 /* ViewController.swift */; };
-		96084D991D5D7A900000E713 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96084D971D5D7A900000E713 /* Main.storyboard */; };
-		96084D9B1D5D7A900000E713 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96084D9A1D5D7A900000E713 /* Assets.xcassets */; };
-		96084D9E1D5D7A900000E713 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96084D9C1D5D7A900000E713 /* LaunchScreen.storyboard */; };
 		96084DA91D5D7A900000E713 /* DateTipsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96084DA81D5D7A900000E713 /* DateTipsTests.swift */; };
 		96084DB41D5D7A900000E713 /* DateTipsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96084DB31D5D7A900000E713 /* DateTipsUITests.swift */; };
+		96383A5E1D644F39007338EE /* MainVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96383A5D1D644F39007338EE /* MainVCtrl.swift */; };
+		96383A611D645110007338EE /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96383A601D645110007338EE /* MainCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +36,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9600311C1D646051002BF862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		960031251D64605B002BF862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		960031271D64608F002BF862 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96084D901D5D7A900000E713 /* DateTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96084D931D5D7A900000E713 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		96084D951D5D7A900000E713 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		96084D981D5D7A900000E713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96084D9A1D5D7A900000E713 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		96084D9D1D5D7A900000E713 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96084D9F1D5D7A900000E713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96084DA41D5D7A900000E713 /* DateTipsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTipsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96084DA81D5D7A900000E713 /* DateTipsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTipsTests.swift; sourceTree = "<group>"; };
 		96084DAA1D5D7A900000E713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96084DAF1D5D7A900000E713 /* DateTipsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DateTipsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96084DB31D5D7A900000E713 /* DateTipsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateTipsUITests.swift; sourceTree = "<group>"; };
 		96084DB51D5D7A900000E713 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96383A5D1D644F39007338EE /* MainVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVCtrl.swift; sourceTree = "<group>"; };
+		96383A601D645110007338EE /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		A63CAE57D7545404CFD2A262 /* Pods-DateTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateTips.release.xcconfig"; path = "Pods/Target Support Files/Pods-DateTips/Pods-DateTips.release.xcconfig"; sourceTree = "<group>"; };
+		AA430BB72673439CCCD8513B /* Pods-DateTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateTips.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DateTips/Pods-DateTips.debug.xcconfig"; sourceTree = "<group>"; };
+		BECB5B077B5ACAF0495E5933 /* Pods_DateTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DateTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2E2AC28FCDA40CF71EC418 /* Pods_DateTips.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +80,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9600311B1D64602D002BF862 /* OtherSources */ = {
+			isa = PBXGroup;
+			children = (
+				960031241D64605B002BF862 /* LaunchScreen.storyboard */,
+				9600311C1D646051002BF862 /* Assets.xcassets */,
+			);
+			path = OtherSources;
+			sourceTree = "<group>";
+		};
 		96084D871D5D7A900000E713 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +96,8 @@
 				96084DA71D5D7A900000E713 /* DateTipsTests */,
 				96084DB21D5D7A900000E713 /* DateTipsUITests */,
 				96084D911D5D7A900000E713 /* Products */,
+				DB4F0A6F646D7A66B235DC47 /* Pods */,
+				9A1C7254EFB0D1C105B4DDB4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +114,10 @@
 		96084D921D5D7A900000E713 /* DateTips */ = {
 			isa = PBXGroup;
 			children = (
+				9600311B1D64602D002BF862 /* OtherSources */,
+				96383A5C1D644F22007338EE /* MainVCtrl */,
 				96084D931D5D7A900000E713 /* AppDelegate.swift */,
-				96084D951D5D7A900000E713 /* ViewController.swift */,
-				96084D971D5D7A900000E713 /* Main.storyboard */,
-				96084D9A1D5D7A900000E713 /* Assets.xcassets */,
-				96084D9C1D5D7A900000E713 /* LaunchScreen.storyboard */,
-				96084D9F1D5D7A900000E713 /* Info.plist */,
+				960031271D64608F002BF862 /* Info.plist */,
 			);
 			path = DateTips;
 			sourceTree = "<group>";
@@ -125,6 +140,40 @@
 			path = DateTipsUITests;
 			sourceTree = "<group>";
 		};
+		96383A5C1D644F22007338EE /* MainVCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				96383A5F1D6450F4007338EE /* Cells */,
+				96383A5D1D644F39007338EE /* MainVCtrl.swift */,
+			);
+			path = MainVCtrl;
+			sourceTree = "<group>";
+		};
+		96383A5F1D6450F4007338EE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				96383A601D645110007338EE /* MainCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		9A1C7254EFB0D1C105B4DDB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BECB5B077B5ACAF0495E5933 /* Pods_DateTips.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB4F0A6F646D7A66B235DC47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AA430BB72673439CCCD8513B /* Pods-DateTips.debug.xcconfig */,
+				A63CAE57D7545404CFD2A262 /* Pods-DateTips.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 96084DB81D5D7A900000E713 /* Build configuration list for PBXNativeTarget "DateTips" */;
 			buildPhases = (
+				0FF6DDDB6F58564DA53C18A5 /* [CP] Check Pods Manifest.lock */,
 				96084D8C1D5D7A900000E713 /* Sources */,
 				96084D8D1D5D7A900000E713 /* Frameworks */,
 				96084D8E1D5D7A900000E713 /* Resources */,
+				1ABC92E4BB5A51C85C62D02B /* [CP] Embed Pods Frameworks */,
+				A080B11C52CD70FCDE29F3B5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -229,9 +281,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96084D9E1D5D7A900000E713 /* LaunchScreen.storyboard in Resources */,
-				96084D9B1D5D7A900000E713 /* Assets.xcassets in Resources */,
-				96084D991D5D7A900000E713 /* Main.storyboard in Resources */,
+				960031261D64605B002BF862 /* LaunchScreen.storyboard in Resources */,
+				960031211D646051002BF862 /* Assets.xcassets in Resources */,
+				960031281D64608F002BF862 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +303,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0FF6DDDB6F58564DA53C18A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1ABC92E4BB5A51C85C62D02B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DateTips/Pods-DateTips-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A080B11C52CD70FCDE29F3B5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DateTips/Pods-DateTips-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		96084D8C1D5D7A900000E713 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96084D961D5D7A900000E713 /* ViewController.swift in Sources */,
+				96383A5E1D644F39007338EE /* MainVCtrl.swift in Sources */,
 				96084D941D5D7A900000E713 /* AppDelegate.swift in Sources */,
+				96383A611D645110007338EE /* MainCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,18 +394,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		96084D971D5D7A900000E713 /* Main.storyboard */ = {
+		960031241D64605B002BF862 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				96084D981D5D7A900000E713 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		96084D9C1D5D7A900000E713 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96084D9D1D5D7A900000E713 /* Base */,
+				960031251D64605B002BF862 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -397,6 +490,7 @@
 		};
 		96084DB91D5D7A900000E713 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA430BB72673439CCCD8513B /* Pods-DateTips.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DateTips/Info.plist;
@@ -408,6 +502,7 @@
 		};
 		96084DBA1D5D7A900000E713 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63CAE57D7545404CFD2A262 /* Pods-DateTips.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DateTips/Info.plist;
@@ -482,6 +577,7 @@
 				96084DBA1D5D7A900000E713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96084DBB1D5D7A900000E713 /* Build configuration list for PBXNativeTarget "DateTipsTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +586,7 @@
 				96084DBD1D5D7A900000E713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		96084DBE1D5D7A900000E713 /* Build configuration list for PBXNativeTarget "DateTipsUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +595,7 @@
 				96084DC01D5D7A900000E713 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
