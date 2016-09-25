@@ -8,14 +8,119 @@
 
 /* Begin PBXBuildFile section */
 		8168DB3F065590B132DF4F4B /* Pods_DateTips.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B39F8494BD695F03BA4AED40 /* Pods_DateTips.framework */; };
+		9618526E1D97C6000034BA18 /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852361D97C6000034BA18 /* IQNSArray+Sort.swift */; };
+		9618526F1D97C6000034BA18 /* IQUIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852371D97C6000034BA18 /* IQUIScrollView+Additions.swift */; };
+		961852701D97C6000034BA18 /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852381D97C6000034BA18 /* IQUITextFieldView+Additions.swift */; };
+		961852711D97C6000034BA18 /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852391D97C6000034BA18 /* IQUIView+Hierarchy.swift */; };
+		961852721D97C6000034BA18 /* IQUIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618523A1D97C6000034BA18 /* IQUIViewController+Additions.swift */; };
+		961852731D97C6000034BA18 /* IQUIWindow+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618523B1D97C6000034BA18 /* IQUIWindow+Hierarchy.swift */; };
+		961852741D97C6000034BA18 /* IQKeyboardManagerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618523D1D97C6000034BA18 /* IQKeyboardManagerConstants.swift */; };
+		961852751D97C6000034BA18 /* IQKeyboardManagerConstantsInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618523E1D97C6000034BA18 /* IQKeyboardManagerConstantsInternal.swift */; };
+		961852761D97C6000034BA18 /* IQKeyboardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618523F1D97C6000034BA18 /* IQKeyboardManager.swift */; };
+		961852771D97C6000034BA18 /* IQKeyboardReturnKeyHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852411D97C6000034BA18 /* IQKeyboardReturnKeyHandler.swift */; };
+		961852781D97C6000034BA18 /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852431D97C6000034BA18 /* IQTextView.swift */; };
+		961852791D97C6000034BA18 /* IQBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852451D97C6000034BA18 /* IQBarButtonItem.swift */; };
+		9618527A1D97C6000034BA18 /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852461D97C6000034BA18 /* IQPreviousNextView.swift */; };
+		9618527B1D97C6000034BA18 /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852471D97C6000034BA18 /* IQTitleBarButtonItem.swift */; };
+		9618527C1D97C6000034BA18 /* IQToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852481D97C6000034BA18 /* IQToolbar.swift */; };
+		9618527D1D97C6000034BA18 /* IQUIView+IQKeyboardToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852491D97C6000034BA18 /* IQUIView+IQKeyboardToolbar.swift */; };
+		9618527E1D97C6000034BA18 /* IQKeyboardManager.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9618524B1D97C6000034BA18 /* IQKeyboardManager.bundle */; };
+		9618527F1D97C6000034BA18 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618524D1D97C6000034BA18 /* Constraint.swift */; };
+		961852801D97C6000034BA18 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618524E1D97C6000034BA18 /* ConstraintAttributes.swift */; };
+		961852811D97C6000034BA18 /* ConstraintConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618524F1D97C6000034BA18 /* ConstraintConfig.swift */; };
+		961852821D97C6000034BA18 /* ConstraintConstantTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852501D97C6000034BA18 /* ConstraintConstantTarget.swift */; };
+		961852831D97C6000034BA18 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852511D97C6000034BA18 /* ConstraintDescription.swift */; };
+		961852841D97C6000034BA18 /* ConstraintDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852521D97C6000034BA18 /* ConstraintDSL.swift */; };
+		961852851D97C6000034BA18 /* ConstraintInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852531D97C6000034BA18 /* ConstraintInsets.swift */; };
+		961852861D97C6000034BA18 /* ConstraintInsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852541D97C6000034BA18 /* ConstraintInsetTarget.swift */; };
+		961852871D97C6000034BA18 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852551D97C6000034BA18 /* ConstraintItem.swift */; };
+		961852881D97C6000034BA18 /* ConstraintLayoutGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852561D97C6000034BA18 /* ConstraintLayoutGuide.swift */; };
+		961852891D97C6000034BA18 /* ConstraintLayoutGuideDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852571D97C6000034BA18 /* ConstraintLayoutGuideDSL.swift */; };
+		9618528A1D97C6000034BA18 /* ConstraintLayoutSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852581D97C6000034BA18 /* ConstraintLayoutSupport.swift */; };
+		9618528B1D97C6000034BA18 /* ConstraintLayoutSupportDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852591D97C6000034BA18 /* ConstraintLayoutSupportDSL.swift */; };
+		9618528C1D97C6000034BA18 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618525A1D97C6000034BA18 /* ConstraintMaker.swift */; };
+		9618528D1D97C6000034BA18 /* ConstraintMakerEditable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618525B1D97C6000034BA18 /* ConstraintMakerEditable.swift */; };
+		9618528E1D97C6000034BA18 /* ConstraintMakerExtendable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618525C1D97C6000034BA18 /* ConstraintMakerExtendable.swift */; };
+		9618528F1D97C6000034BA18 /* ConstraintMakerFinalizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618525D1D97C6000034BA18 /* ConstraintMakerFinalizable.swift */; };
+		961852901D97C6000034BA18 /* ConstraintMakerPriortizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618525E1D97C6000034BA18 /* ConstraintMakerPriortizable.swift */; };
+		961852911D97C6000034BA18 /* ConstraintMakerRelatable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618525F1D97C6000034BA18 /* ConstraintMakerRelatable.swift */; };
+		961852921D97C6000034BA18 /* ConstraintMultiplierTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852601D97C6000034BA18 /* ConstraintMultiplierTarget.swift */; };
+		961852931D97C6000034BA18 /* ConstraintOffsetTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852611D97C6000034BA18 /* ConstraintOffsetTarget.swift */; };
+		961852941D97C6000034BA18 /* ConstraintPriorityTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852621D97C6000034BA18 /* ConstraintPriorityTarget.swift */; };
+		961852951D97C6000034BA18 /* ConstraintRelatableTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852631D97C6000034BA18 /* ConstraintRelatableTarget.swift */; };
+		961852961D97C6000034BA18 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852641D97C6000034BA18 /* ConstraintRelation.swift */; };
+		961852971D97C6000034BA18 /* ConstraintView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852651D97C6000034BA18 /* ConstraintView+Extensions.swift */; };
+		961852981D97C6000034BA18 /* ConstraintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852661D97C6000034BA18 /* ConstraintView.swift */; };
+		961852991D97C6000034BA18 /* ConstraintViewDSL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852671D97C6000034BA18 /* ConstraintViewDSL.swift */; };
+		9618529A1D97C6000034BA18 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961852681D97C6000034BA18 /* Debugging.swift */; };
+		9618529B1D97C6000034BA18 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 961852691D97C6000034BA18 /* Info.plist */; };
+		9618529C1D97C6000034BA18 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618526A1D97C6000034BA18 /* LayoutConstraint.swift */; };
+		9618529D1D97C6000034BA18 /* UILayoutGuide+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618526C1D97C6000034BA18 /* UILayoutGuide+Extensions.swift */; };
+		9618529E1D97C6000034BA18 /* UILayoutSupport+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9618526D1D97C6000034BA18 /* UILayoutSupport+Extensions.swift */; };
+		969450D41D7D459700B8F2E5 /* AddBirthdayVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969450D31D7D459700B8F2E5 /* AddBirthdayVCtrl.swift */; };
+		969450D91D7D6AA800B8F2E5 /* AddBirthdayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 969450D81D7D6AA800B8F2E5 /* AddBirthdayCell.swift */; };
 		96BECD141D64637100010CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BECD131D64637100010CFC /* AppDelegate.swift */; };
 		96BECD191D64637100010CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BECD171D64637100010CFC /* Main.storyboard */; };
 		96BECD1B1D64637100010CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96BECD1A1D64637100010CFC /* Assets.xcassets */; };
 		96BECD1E1D64637100010CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96BECD1C1D64637100010CFC /* LaunchScreen.storyboard */; };
 		96BECD271D64648600010CFC /* MainVCtrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96BECD261D64648600010CFC /* MainVCtrl.swift */; };
+		96F0D5DC1D6550C3007A4FD7 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F0D5DB1D6550C3007A4FD7 /* MainCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		961852361D97C6000034BA18 /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		961852371D97C6000034BA18 /* IQUIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		961852381D97C6000034BA18 /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
+		961852391D97C6000034BA18 /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
+		9618523A1D97C6000034BA18 /* IQUIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIViewController+Additions.swift"; sourceTree = "<group>"; };
+		9618523B1D97C6000034BA18 /* IQUIWindow+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIWindow+Hierarchy.swift"; sourceTree = "<group>"; };
+		9618523D1D97C6000034BA18 /* IQKeyboardManagerConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstants.swift; sourceTree = "<group>"; };
+		9618523E1D97C6000034BA18 /* IQKeyboardManagerConstantsInternal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManagerConstantsInternal.swift; sourceTree = "<group>"; };
+		9618523F1D97C6000034BA18 /* IQKeyboardManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardManager.swift; sourceTree = "<group>"; };
+		961852401D97C6000034BA18 /* IQKeyboardManagerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IQKeyboardManagerSwift.h; sourceTree = "<group>"; };
+		961852411D97C6000034BA18 /* IQKeyboardReturnKeyHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQKeyboardReturnKeyHandler.swift; sourceTree = "<group>"; };
+		961852431D97C6000034BA18 /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
+		961852451D97C6000034BA18 /* IQBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQBarButtonItem.swift; sourceTree = "<group>"; };
+		961852461D97C6000034BA18 /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
+		961852471D97C6000034BA18 /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
+		961852481D97C6000034BA18 /* IQToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQToolbar.swift; sourceTree = "<group>"; };
+		961852491D97C6000034BA18 /* IQUIView+IQKeyboardToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+IQKeyboardToolbar.swift"; sourceTree = "<group>"; };
+		9618524B1D97C6000034BA18 /* IQKeyboardManager.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IQKeyboardManager.bundle; sourceTree = "<group>"; };
+		9618524D1D97C6000034BA18 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		9618524E1D97C6000034BA18 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		9618524F1D97C6000034BA18 /* ConstraintConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConfig.swift; sourceTree = "<group>"; };
+		961852501D97C6000034BA18 /* ConstraintConstantTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintConstantTarget.swift; sourceTree = "<group>"; };
+		961852511D97C6000034BA18 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		961852521D97C6000034BA18 /* ConstraintDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDSL.swift; sourceTree = "<group>"; };
+		961852531D97C6000034BA18 /* ConstraintInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsets.swift; sourceTree = "<group>"; };
+		961852541D97C6000034BA18 /* ConstraintInsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintInsetTarget.swift; sourceTree = "<group>"; };
+		961852551D97C6000034BA18 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		961852561D97C6000034BA18 /* ConstraintLayoutGuide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuide.swift; sourceTree = "<group>"; };
+		961852571D97C6000034BA18 /* ConstraintLayoutGuideDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutGuideDSL.swift; sourceTree = "<group>"; };
+		961852581D97C6000034BA18 /* ConstraintLayoutSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupport.swift; sourceTree = "<group>"; };
+		961852591D97C6000034BA18 /* ConstraintLayoutSupportDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintLayoutSupportDSL.swift; sourceTree = "<group>"; };
+		9618525A1D97C6000034BA18 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		9618525B1D97C6000034BA18 /* ConstraintMakerEditable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerEditable.swift; sourceTree = "<group>"; };
+		9618525C1D97C6000034BA18 /* ConstraintMakerExtendable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerExtendable.swift; sourceTree = "<group>"; };
+		9618525D1D97C6000034BA18 /* ConstraintMakerFinalizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerFinalizable.swift; sourceTree = "<group>"; };
+		9618525E1D97C6000034BA18 /* ConstraintMakerPriortizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerPriortizable.swift; sourceTree = "<group>"; };
+		9618525F1D97C6000034BA18 /* ConstraintMakerRelatable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMakerRelatable.swift; sourceTree = "<group>"; };
+		961852601D97C6000034BA18 /* ConstraintMultiplierTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMultiplierTarget.swift; sourceTree = "<group>"; };
+		961852611D97C6000034BA18 /* ConstraintOffsetTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintOffsetTarget.swift; sourceTree = "<group>"; };
+		961852621D97C6000034BA18 /* ConstraintPriorityTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintPriorityTarget.swift; sourceTree = "<group>"; };
+		961852631D97C6000034BA18 /* ConstraintRelatableTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelatableTarget.swift; sourceTree = "<group>"; };
+		961852641D97C6000034BA18 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		961852651D97C6000034BA18 /* ConstraintView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ConstraintView+Extensions.swift"; sourceTree = "<group>"; };
+		961852661D97C6000034BA18 /* ConstraintView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintView.swift; sourceTree = "<group>"; };
+		961852671D97C6000034BA18 /* ConstraintViewDSL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintViewDSL.swift; sourceTree = "<group>"; };
+		961852681D97C6000034BA18 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		961852691D97C6000034BA18 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9618526A1D97C6000034BA18 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		9618526B1D97C6000034BA18 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		9618526C1D97C6000034BA18 /* UILayoutGuide+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutGuide+Extensions.swift"; sourceTree = "<group>"; };
+		9618526D1D97C6000034BA18 /* UILayoutSupport+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILayoutSupport+Extensions.swift"; sourceTree = "<group>"; };
+		969450D31D7D459700B8F2E5 /* AddBirthdayVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBirthdayVCtrl.swift; sourceTree = "<group>"; };
+		969450D81D7D6AA800B8F2E5 /* AddBirthdayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBirthdayCell.swift; sourceTree = "<group>"; };
 		96BECD101D64637100010CFC /* DateTips.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DateTips.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96BECD131D64637100010CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96BECD181D64637100010CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -23,6 +128,7 @@
 		96BECD1D1D64637100010CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96BECD1F1D64637100010CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96BECD261D64648600010CFC /* MainVCtrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVCtrl.swift; sourceTree = "<group>"; };
+		96F0D5DB1D6550C3007A4FD7 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 		9A56DCD890B9F3259A5D5DB0 /* Pods-DateTips.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateTips.release.xcconfig"; path = "Pods/Target Support Files/Pods-DateTips/Pods-DateTips.release.xcconfig"; sourceTree = "<group>"; };
 		B39F8494BD695F03BA4AED40 /* Pods_DateTips.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DateTips.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC60E9972E23F94F1FDDB35B /* Pods-DateTips.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DateTips.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DateTips/Pods-DateTips.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,6 +154,153 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		961852331D97C6000034BA18 /* OtherClasslib */ = {
+			isa = PBXGroup;
+			children = (
+				961852341D97C6000034BA18 /* IQKeyboardManagerSwift */,
+				9618524C1D97C6000034BA18 /* SnapKit */,
+			);
+			path = OtherClasslib;
+			sourceTree = "<group>";
+		};
+		961852341D97C6000034BA18 /* IQKeyboardManagerSwift */ = {
+			isa = PBXGroup;
+			children = (
+				961852351D97C6000034BA18 /* Categories */,
+				9618523C1D97C6000034BA18 /* Constants */,
+				9618523F1D97C6000034BA18 /* IQKeyboardManager.swift */,
+				961852401D97C6000034BA18 /* IQKeyboardManagerSwift.h */,
+				961852411D97C6000034BA18 /* IQKeyboardReturnKeyHandler.swift */,
+				961852421D97C6000034BA18 /* IQTextView */,
+				961852441D97C6000034BA18 /* IQToolbar */,
+				9618524A1D97C6000034BA18 /* Resources */,
+			);
+			path = IQKeyboardManagerSwift;
+			sourceTree = "<group>";
+		};
+		961852351D97C6000034BA18 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				961852361D97C6000034BA18 /* IQNSArray+Sort.swift */,
+				961852371D97C6000034BA18 /* IQUIScrollView+Additions.swift */,
+				961852381D97C6000034BA18 /* IQUITextFieldView+Additions.swift */,
+				961852391D97C6000034BA18 /* IQUIView+Hierarchy.swift */,
+				9618523A1D97C6000034BA18 /* IQUIViewController+Additions.swift */,
+				9618523B1D97C6000034BA18 /* IQUIWindow+Hierarchy.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		9618523C1D97C6000034BA18 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				9618523D1D97C6000034BA18 /* IQKeyboardManagerConstants.swift */,
+				9618523E1D97C6000034BA18 /* IQKeyboardManagerConstantsInternal.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		961852421D97C6000034BA18 /* IQTextView */ = {
+			isa = PBXGroup;
+			children = (
+				961852431D97C6000034BA18 /* IQTextView.swift */,
+			);
+			path = IQTextView;
+			sourceTree = "<group>";
+		};
+		961852441D97C6000034BA18 /* IQToolbar */ = {
+			isa = PBXGroup;
+			children = (
+				961852451D97C6000034BA18 /* IQBarButtonItem.swift */,
+				961852461D97C6000034BA18 /* IQPreviousNextView.swift */,
+				961852471D97C6000034BA18 /* IQTitleBarButtonItem.swift */,
+				961852481D97C6000034BA18 /* IQToolbar.swift */,
+				961852491D97C6000034BA18 /* IQUIView+IQKeyboardToolbar.swift */,
+			);
+			path = IQToolbar;
+			sourceTree = "<group>";
+		};
+		9618524A1D97C6000034BA18 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9618524B1D97C6000034BA18 /* IQKeyboardManager.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9618524C1D97C6000034BA18 /* SnapKit */ = {
+			isa = PBXGroup;
+			children = (
+				9618524D1D97C6000034BA18 /* Constraint.swift */,
+				9618524E1D97C6000034BA18 /* ConstraintAttributes.swift */,
+				9618524F1D97C6000034BA18 /* ConstraintConfig.swift */,
+				961852501D97C6000034BA18 /* ConstraintConstantTarget.swift */,
+				961852511D97C6000034BA18 /* ConstraintDescription.swift */,
+				961852521D97C6000034BA18 /* ConstraintDSL.swift */,
+				961852531D97C6000034BA18 /* ConstraintInsets.swift */,
+				961852541D97C6000034BA18 /* ConstraintInsetTarget.swift */,
+				961852551D97C6000034BA18 /* ConstraintItem.swift */,
+				961852561D97C6000034BA18 /* ConstraintLayoutGuide.swift */,
+				961852571D97C6000034BA18 /* ConstraintLayoutGuideDSL.swift */,
+				961852581D97C6000034BA18 /* ConstraintLayoutSupport.swift */,
+				961852591D97C6000034BA18 /* ConstraintLayoutSupportDSL.swift */,
+				9618525A1D97C6000034BA18 /* ConstraintMaker.swift */,
+				9618525B1D97C6000034BA18 /* ConstraintMakerEditable.swift */,
+				9618525C1D97C6000034BA18 /* ConstraintMakerExtendable.swift */,
+				9618525D1D97C6000034BA18 /* ConstraintMakerFinalizable.swift */,
+				9618525E1D97C6000034BA18 /* ConstraintMakerPriortizable.swift */,
+				9618525F1D97C6000034BA18 /* ConstraintMakerRelatable.swift */,
+				961852601D97C6000034BA18 /* ConstraintMultiplierTarget.swift */,
+				961852611D97C6000034BA18 /* ConstraintOffsetTarget.swift */,
+				961852621D97C6000034BA18 /* ConstraintPriorityTarget.swift */,
+				961852631D97C6000034BA18 /* ConstraintRelatableTarget.swift */,
+				961852641D97C6000034BA18 /* ConstraintRelation.swift */,
+				961852651D97C6000034BA18 /* ConstraintView+Extensions.swift */,
+				961852661D97C6000034BA18 /* ConstraintView.swift */,
+				961852671D97C6000034BA18 /* ConstraintViewDSL.swift */,
+				961852681D97C6000034BA18 /* Debugging.swift */,
+				961852691D97C6000034BA18 /* Info.plist */,
+				9618526A1D97C6000034BA18 /* LayoutConstraint.swift */,
+				9618526B1D97C6000034BA18 /* SnapKit.h */,
+				9618526C1D97C6000034BA18 /* UILayoutGuide+Extensions.swift */,
+				9618526D1D97C6000034BA18 /* UILayoutSupport+Extensions.swift */,
+			);
+			path = SnapKit;
+			sourceTree = "<group>";
+		};
+		969450D21D7D458000B8F2E5 /* AddBirthdayVCtrl */ = {
+			isa = PBXGroup;
+			children = (
+				969450D71D7D6A8B00B8F2E5 /* Cells */,
+				969450D31D7D459700B8F2E5 /* AddBirthdayVCtrl.swift */,
+			);
+			path = AddBirthdayVCtrl;
+			sourceTree = "<group>";
+		};
+		969450D51D7D67FB00B8F2E5 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				961852331D97C6000034BA18 /* OtherClasslib */,
+				969450D61D7D67FB00B8F2E5 /* PublicElements */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		969450D61D7D67FB00B8F2E5 /* PublicElements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PublicElements;
+			sourceTree = "<group>";
+		};
+		969450D71D7D6A8B00B8F2E5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				969450D81D7D6AA800B8F2E5 /* AddBirthdayCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		96BECD071D64637100010CFC = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +322,8 @@
 		96BECD121D64637100010CFC /* DateTips */ = {
 			isa = PBXGroup;
 			children = (
+				969450D51D7D67FB00B8F2E5 /* Public */,
+				969450D21D7D458000B8F2E5 /* AddBirthdayVCtrl */,
 				96BECD251D64647500010CFC /* MainVCtrl */,
 				96BECD131D64637100010CFC /* AppDelegate.swift */,
 				96BECD171D64637100010CFC /* Main.storyboard */,
@@ -82,9 +337,18 @@
 		96BECD251D64647500010CFC /* MainVCtrl */ = {
 			isa = PBXGroup;
 			children = (
+				96F0D5DA1D6550B0007A4FD7 /* Cells */,
 				96BECD261D64648600010CFC /* MainVCtrl.swift */,
 			);
 			path = MainVCtrl;
+			sourceTree = "<group>";
+		};
+		96F0D5DA1D6550B0007A4FD7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				96F0D5DB1D6550C3007A4FD7 /* MainCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		E10B1AF42BEAB511F0FCC064 /* Pods */ = {
@@ -126,11 +390,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "南天";
 				TargetAttributes = {
 					96BECD0F1D64637100010CFC = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -159,6 +424,8 @@
 			files = (
 				96BECD1E1D64637100010CFC /* LaunchScreen.storyboard in Resources */,
 				96BECD1B1D64637100010CFC /* Assets.xcassets in Resources */,
+				9618527E1D97C6000034BA18 /* IQKeyboardManager.bundle in Resources */,
+				9618529B1D97C6000034BA18 /* Info.plist in Resources */,
 				96BECD191D64637100010CFC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,8 +485,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9618529C1D97C6000034BA18 /* LayoutConstraint.swift in Sources */,
+				9618527D1D97C6000034BA18 /* IQUIView+IQKeyboardToolbar.swift in Sources */,
+				961852961D97C6000034BA18 /* ConstraintRelation.swift in Sources */,
+				969450D41D7D459700B8F2E5 /* AddBirthdayVCtrl.swift in Sources */,
+				961852911D97C6000034BA18 /* ConstraintMakerRelatable.swift in Sources */,
+				961852901D97C6000034BA18 /* ConstraintMakerPriortizable.swift in Sources */,
+				961852991D97C6000034BA18 /* ConstraintViewDSL.swift in Sources */,
+				961852841D97C6000034BA18 /* ConstraintDSL.swift in Sources */,
 				96BECD271D64648600010CFC /* MainVCtrl.swift in Sources */,
+				961852721D97C6000034BA18 /* IQUIViewController+Additions.swift in Sources */,
+				961852811D97C6000034BA18 /* ConstraintConfig.swift in Sources */,
+				9618527C1D97C6000034BA18 /* IQToolbar.swift in Sources */,
+				961852791D97C6000034BA18 /* IQBarButtonItem.swift in Sources */,
+				9618527B1D97C6000034BA18 /* IQTitleBarButtonItem.swift in Sources */,
+				961852921D97C6000034BA18 /* ConstraintMultiplierTarget.swift in Sources */,
+				9618526E1D97C6000034BA18 /* IQNSArray+Sort.swift in Sources */,
+				961852741D97C6000034BA18 /* IQKeyboardManagerConstants.swift in Sources */,
+				961852781D97C6000034BA18 /* IQTextView.swift in Sources */,
+				961852851D97C6000034BA18 /* ConstraintInsets.swift in Sources */,
+				961852891D97C6000034BA18 /* ConstraintLayoutGuideDSL.swift in Sources */,
+				969450D91D7D6AA800B8F2E5 /* AddBirthdayCell.swift in Sources */,
+				961852951D97C6000034BA18 /* ConstraintRelatableTarget.swift in Sources */,
+				9618528E1D97C6000034BA18 /* ConstraintMakerExtendable.swift in Sources */,
+				9618528F1D97C6000034BA18 /* ConstraintMakerFinalizable.swift in Sources */,
+				961852761D97C6000034BA18 /* IQKeyboardManager.swift in Sources */,
+				9618528C1D97C6000034BA18 /* ConstraintMaker.swift in Sources */,
+				961852931D97C6000034BA18 /* ConstraintOffsetTarget.swift in Sources */,
+				961852831D97C6000034BA18 /* ConstraintDescription.swift in Sources */,
+				961852881D97C6000034BA18 /* ConstraintLayoutGuide.swift in Sources */,
+				961852981D97C6000034BA18 /* ConstraintView.swift in Sources */,
+				961852941D97C6000034BA18 /* ConstraintPriorityTarget.swift in Sources */,
+				9618528B1D97C6000034BA18 /* ConstraintLayoutSupportDSL.swift in Sources */,
+				961852861D97C6000034BA18 /* ConstraintInsetTarget.swift in Sources */,
+				961852731D97C6000034BA18 /* IQUIWindow+Hierarchy.swift in Sources */,
+				961852711D97C6000034BA18 /* IQUIView+Hierarchy.swift in Sources */,
 				96BECD141D64637100010CFC /* AppDelegate.swift in Sources */,
+				9618526F1D97C6000034BA18 /* IQUIScrollView+Additions.swift in Sources */,
+				961852821D97C6000034BA18 /* ConstraintConstantTarget.swift in Sources */,
+				961852771D97C6000034BA18 /* IQKeyboardReturnKeyHandler.swift in Sources */,
+				9618528D1D97C6000034BA18 /* ConstraintMakerEditable.swift in Sources */,
+				9618527A1D97C6000034BA18 /* IQPreviousNextView.swift in Sources */,
+				9618527F1D97C6000034BA18 /* Constraint.swift in Sources */,
+				961852701D97C6000034BA18 /* IQUITextFieldView+Additions.swift in Sources */,
+				961852751D97C6000034BA18 /* IQKeyboardManagerConstantsInternal.swift in Sources */,
+				9618529A1D97C6000034BA18 /* Debugging.swift in Sources */,
+				961852971D97C6000034BA18 /* ConstraintView+Extensions.swift in Sources */,
+				9618529E1D97C6000034BA18 /* UILayoutSupport+Extensions.swift in Sources */,
+				96F0D5DC1D6550C3007A4FD7 /* MainCell.swift in Sources */,
+				9618529D1D97C6000034BA18 /* UILayoutGuide+Extensions.swift in Sources */,
+				961852801D97C6000034BA18 /* ConstraintAttributes.swift in Sources */,
+				9618528A1D97C6000034BA18 /* ConstraintLayoutSupport.swift in Sources */,
+				961852871D97C6000034BA18 /* ConstraintItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +576,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -304,8 +623,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -324,6 +645,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -333,10 +655,12 @@
 			baseConfigurationReference = FC60E9972E23F94F1FDDB35B /* Pods-DateTips.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = DateTips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nantian.DateTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -345,10 +669,12 @@
 			baseConfigurationReference = 9A56DCD890B9F3259A5D5DB0 /* Pods-DateTips.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				INFOPLIST_FILE = DateTips/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nantian.DateTips;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
